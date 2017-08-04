@@ -17,9 +17,10 @@
 title: Bill Kwai
 email: billkwai@stanford.edu
 description: CS student at Stanford University
-
 baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  billkwai
+
+include: ['_pages']
 
 # Build settings
 markdown: kramdown
