@@ -4,3 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+pattern = GeoPattern.generate('Master Markdown', base_color: '#fc0', patterns: :sine_waves)
+
+div style="background-image: <%= pattern.to_data_uri %>"></div>
+
+text
