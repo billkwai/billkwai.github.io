@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'Roboto-Regular';
-	src: url('../assets/Roboto woff/Roboto-Regular.woff') format('woff');
+	src: url('../assets/Roboto-woff/Roboto-Regular.woff') format('woff');
 	font-family: 'Roboto-Thin';
-	src: url('../assets/Roboto woff/Roboto-Thin.woff') format('woff');
+	src: url('../assets/Roboto-woff/Roboto-Thin.woff') format('woff');
 }
 
 .fold {
