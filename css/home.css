@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../assets/Roboto woff/Roboto-Regular.woff') format('woff');
+	font-family: 'Roboto-Thin';
+	src: url('../assets/Roboto woff/Roboto-Thin.woff') format('woff');
+}
+
+body {
+	background: url('../assets/home_v2.jpeg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+	text-align: center;
+	font-family: "Roboto-Regular";
+	font-weight: normal;
+	font-size: 8.50vw;
+}
+
+.subtitle {
+	text-align: center;
+	font-family: "Roboto-Thin";
+	font-weight: normal;
+	font-size: 1.75vw;
+}
+
+.page-header {
+	margin-top: 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
