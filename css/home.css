@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'Roboto-Regular';
-	src: url('../assets/Roboto-woff/Roboto-Regular.WOFF') format('woff');
+	src: url('../assets/Roboto-woff/Roboto-Regular.WOFF') format('WOFF');
 	font-family: 'Roboto-Thin';
-	src: url('../assets/Roboto-woff/Roboto-Thin.WOFF') format('woff');
+	src: url('../assets/Roboto-woff/Roboto-Thin.WOFF') format('WOFF');
 }
 
 body {
