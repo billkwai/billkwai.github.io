@@ -45,6 +45,14 @@
 	padding-bottom: 3.0vw;
 }
 
+.icon-items {
+	padding-top: 3.0vw;
+	padding-bottom: 1.0vw;
+	font-size: 1.0vw;
+	text-align: center;
+	font-family: "Roboto-Light";
+}
+
 .horizontal-rule {
 	border-top: 1px solid #222222;
 }
@@ -73,6 +81,11 @@
 
 .right-info li {
 	margin-bottom: 0.5vw;
+}
+
+.update-info {
+	font-family: "Roboto-Thin";
+	font-weight: normal;
 }
 
 .page-header {
