@@ -53,6 +53,23 @@
 	font-family: "Roboto-Light";
 }
 
+span.icon-item:hover + .icon-desc{
+  visibility: visible;
+  opacity: 1;
+}
+
+.icon-desc {
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect*/
+  transition: opacity .2s, visibility .2s;
+}
+
+.clickable-icon {
+     cursor: pointer
+}
+
 .horizontal-rule {
 	border-top: 1px solid #222222;
 }
