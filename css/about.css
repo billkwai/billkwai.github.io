@@ -63,10 +63,16 @@
 	max-height: 100%;
 }
 
-.right-section h2{
+.page-content.double-col h2{
 	text-align: left;
 	font-weight: bold;
 	font-size: 3.0vw;
+}
+
+.page-content.double-col p {
+	text-align: left;
+	font-weight: normal;
+	font-size: 1.5vw;
 }
 
 hr.horizontal-rule { 
