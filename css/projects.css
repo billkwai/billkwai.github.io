@@ -50,7 +50,11 @@
 	padding-bottom: 1.0vw;
 	font-size: 1.0vw;
 	text-align: center;
-	font-family: "Roboto-Light";
+	font-family: "Roboto-Thin";
+}
+
+i:hover {
+  opacity: 0.75;
 }
 
 span.icon-item:hover + .icon-desc{
