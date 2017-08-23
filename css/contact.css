@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../assets/Roboto-woff/Roboto-Regular.WOFF') format('WOFF');
+	font-family: 'Roboto-Thin';
+	src: url('../assets/Roboto-woff/Roboto-Thin.WOFF') format('WOFF');
+}
+
+.page-content {
+	font-family: "Roboto-Thin";
+}
+
+.page-content h1 {
+	font-weight: bold;
+}
