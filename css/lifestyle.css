@@ -82,8 +82,9 @@
 
 .w3-display-container {
     position: relative;
-    max-height: 30.00vw;
+    width: 70%;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .w3-display-container img {
