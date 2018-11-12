@@ -6,18 +6,48 @@
 }
 
 body {
-	background: url('../assets/home_v2.jpeg') no-repeat center center fixed;
+	background: url('../assets/home_v3.jpeg') no-repeat center center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.vertical-align {
+	display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.corner {
+    border-radius: 50px;
+    background: #faebd7;
+    display: inline-block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    opacity: 0.95;
+    filter: alpha(opacity=75);
+}
+
+.circle {
+	width:50%;
+	height:0;
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+	line-height:0;
+	padding:25% 0;
+	border-radius:50%;
+	background:#faebd7;
+}
+
 .title {
 	text-align: center;
 	font-family: "Roboto-Regular";
 	font-weight: normal;
-	font-size: 8.50vw;
+	font-size: 5.0vw;
+	margin-top: 0px;
 }
 
 .subtitle {
@@ -28,7 +58,8 @@ body {
 }
 
 .page-header {
-	margin-top: 0;
+	margin-top: 5.0vw;
+	border-bottom:none;
 }
 
 .navbar {
